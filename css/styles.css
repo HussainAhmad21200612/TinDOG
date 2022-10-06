@@ -1,0 +1,181 @@
+/* BODY */
+body {
+  font-family: 'Montserrat-Dark', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu-Dark', sans-serif;
+  font-size: 30px;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+/* TITLE */
+#title {
+  background-color: #FA7070;
+}
+
+.tin {
+  margin-top: 5px;
+}
+
+h1 {
+  font-family: 'Montserrat-Dark', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.phone {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* media query is below the normal selection */
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+
+
+  .phone {
+    margin-top: 50px;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+.button {
+  margin: 5% 6% auto auto;
+}
+
+/* FEATURES */
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  padding-bottom: 20px;
+  font-size: 3rem;
+  color: #efB172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+/* CAROUSEL */
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* testemonials */
+#testimonials, #press {
+  background-color: #FA7070;
+  position: relative;
+}
+
+.container-fluid, .carousel-item {
+  padding: 3% 15% 8%;
+}
+
+.content {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 10px;
+}
+
+.test-img {
+  margin: 20px 20px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  width: 13%;
+}
+
+.peb {
+  color: white;
+  margin-left: 20px;
+}
+
+.carousel-control-next {
+  margin-left: 20%;
+}
+
+.heads {
+  font-size: 2.5rem;
+  font-family: 'Montserrat-Black';
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Montserrat-Black';
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+#dog {
+  margin: 0 8px auto auto;
+  width: 3rem;
+  height: 2.5rem;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+/* DOWNLOAD */
+#cta {
+  color: white;
+  text-align: center;
+  padding: 5% 15% 8%;
+  background-color: #FA7070;
+}
+
+.foot {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  width: 80%;
+}
+
+.btn-footer {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* FOOTER */
+#footer {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.circle {
+  font-size: 2rem;
+  width: 4%;
+  position: absolute;
+  float: right;
+  right: 10%;
+  background-color: #C6EBC5;
+  border-radius: 100%;
+  border-color: #A1C298;
+  border: 3px solid;
+}
